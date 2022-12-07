@@ -1,10 +1,14 @@
 # Configs
 .vscode/
 
+# Files without an extension
+*[^.]*
+
 # Prerequisites
 *.d
 
 # Compiled Object files
+*.bin
 *.elf
 *.ko
 *.lo
